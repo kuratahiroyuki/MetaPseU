@@ -20,14 +20,14 @@ The training dataset is divided into k-fold cross-validation subsets.
 
 ## Construction of Word2Vec (W2V) models with K-mer  
 
-Pred_DL/w2v  
+In pred_DL/w2v  
 >sh w2v_const.sh  
 
 ## Training and Testing of Deep Learning Models  
 
 deep_learning: TX, CNN, bLSTM(BiLSTM)  
 encoding: W2V, binary (OH)  
-pred_DL/network
+In pred_DL/network
 >sh train_test_dl.sh (calling train_test_8.py fro TX, CNN, bLSTM or ml_av2.py for RF)  
 
 
@@ -35,7 +35,7 @@ pred_DL/network
 
 machine_learning: LGBM,XGB,RF,SVM,NB,KN,LR #LGBM,XGB,RF,SVM,NB,KN,LR  
 encoding: DNC,TNC,CKSNAP,RCKmer,PseEIIP,binary,ENAC,ANF,NCP,EIIP,PSTNPss,DAC,DCC,DACC,PseKNC,PseDNC,SCPseDNC  
-pred_ML  
+In pred_ML  
 >sh train_test_ml.sh  
 (calling  ml_train_test_63.py)  
 
